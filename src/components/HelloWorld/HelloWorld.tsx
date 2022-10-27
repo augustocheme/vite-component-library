@@ -1,9 +1,11 @@
 import classes from './styles.module.scss'
 
 export interface IHelloWorld {
-  text: string
+  name: string
 }
 
-export const HelloWorld = ({ text }: IHelloWorld) => {
-    return <div className={classes.text}>This is a new file: {text}</div>
+const HelloWorld = ({ name }: IHelloWorld) => {
+    return <div className={classes.greeting}>Hi: {name}</div>
 }
+
+export default HelloWorld;

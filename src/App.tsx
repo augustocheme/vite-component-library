@@ -1,7 +1,7 @@
-import {HelloWorld} from "./components/HelloWorld"
+import HelloWorld from "./components/HelloWorld/HelloWorld"
 
 function App() {
-  return <HelloWorld text="alou"/>
+  return <HelloWorld name="Augusto"/>
 }
 
 export default App

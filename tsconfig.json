@@ -19,7 +19,7 @@
      "declarationMap": true,
     "baseUrl": ".",
      "paths": {
-      "react-component-library": [ "src/index.ts" ]
+      "vite-react-component-library": [ "src/index.ts" ]
     },
     "typeRoots": [
       "node_modules/@types",
